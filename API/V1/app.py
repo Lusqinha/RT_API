@@ -5,9 +5,6 @@ app = FastAPI()
 app.title = "RT-API"
 app.description = "API de validação de documentos"
 app.version = "1.0.0"
-app.docs_url = "/v1/docs"
-app.redoc_url = "/v1/redoc"
-app.openapi_url = "/v1/openapi.json"
 # Root route
 @app.get("/")
 def routes():
