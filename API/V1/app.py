@@ -15,4 +15,4 @@ def read_root():
     return {'Status': 'OK', 'Versão': '1.0.0', 'Mensagem': 'Bem-vindo à RT-API!'}
 
 # V1 - Validar routes
-app.add_route("v1/validar", router_validar.router)
+app.add_route("/v1/validar", router_validar.router)
